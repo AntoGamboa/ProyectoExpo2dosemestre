@@ -257,19 +257,13 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD
 				return DVDfiltrados;
 			}
 		}
+		
 		List<DVD> FiltradoCodigo(int DatoFiltrado)
 		{
 			using(ColeccionDVD Filtrado = new ColeccionDVD())
 			{
-				List<DVD> DVDfiltrados= new List<DVD>();
 				Filtrado.CargarDvD();
-				foreach(DVD x in Filtrado.Lista)
-				{
-					if(x.Tipomedio==DatoFiltrado)
-					{
-						DVDfiltrados.Add(x);
-					}
-				}
+				List<DVD> DVDfiltrados= DVDfiltrados=Filtrado.Lista.FindAll(x=>x.Tipomedio == DatoFiltrado);
 				return DVDfiltrados;
 			}
 		}
