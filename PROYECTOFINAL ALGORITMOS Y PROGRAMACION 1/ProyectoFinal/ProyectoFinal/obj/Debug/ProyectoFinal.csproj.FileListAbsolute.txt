@@ -1,0 +1,153 @@
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ControlesPersonalizados.dll
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.InicioSesion.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.Cache
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.registro.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.FormEmpleado.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.FormDvD.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formagregarproducto.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formActualizar.resources
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ControlesPersonalizados.dll
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.FormEmpleado.resources
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formActualizar.resources
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formagregarproducto.resources
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.FormDvD.resources
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.registro.resources
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.InicioSesion.resources
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.Cache
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+E:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ControlesPersonalizados.dll
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.FormEmpleado.resources
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formActualizar.resources
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formagregarproducto.resources
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.FormDvD.resources
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.registro.resources
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.InicioSesion.resources
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.Cache
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+D:\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formVerDetalles.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.FormClientes.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.FormRegistrar.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.ActualizarCliente.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormPrestamos.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormAgregarP.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.CosultaPrestamoCliente.resources
+C:\Users\Freelight\Desktop\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.ConsultaIngresos.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ControlesPersonalizados.dll
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.FormEmpleado.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.ConsultaIngresos.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.CosultaPrestamoCliente.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.ActualizarCliente.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.FormRegistrar.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.FormClientes.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formActualizar.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formagregarproducto.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formVerDetalles.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.FormDvD.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormAgregarP.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormPrestamos.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.registro.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.InicioSesion.resources
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\USER2365\Desktop\actualizado\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ControlesPersonalizados.dll
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.FormEmpleado.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.ConsultaIngresos.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.CosultaPrestamoCliente.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.ActualizarCliente.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.FormRegistrar.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.FormClientes.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formActualizar.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formagregarproducto.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formVerDetalles.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.FormDvD.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormAgregarP.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormPrestamos.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.registro.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.InicioSesion.resources
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.Cache
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+G:\descargas PC\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ControlesPersonalizados.dll
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.FormEmpleado.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.ConsultaIngresos.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.CosultaPrestamoCliente.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.ActualizarCliente.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.FormRegistrar.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.FormClientes.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formActualizar.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formagregarproducto.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formVerDetalles.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.FormDvD.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormAgregarP.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormPrestamos.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.registro.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.InicioSesion.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.Cache
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\Freelight\Desktop\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ControlesPersonalizados.dll
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.FormEmpleado.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.ConsultaIngresos.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.CosultaPrestamoCliente.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.ActualizarCliente.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.FormRegistrar.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.FormClientes.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formActualizar.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formagregarproducto.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formVerDetalles.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.FormDvD.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormAgregarP.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormPrestamos.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.registro.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.InicioSesion.resources
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.Cache
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\Cesar Araujo\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\bin\Debug\ControlesPersonalizados.dll
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.FormEmpleado.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.ConsultaIngresos.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.ConsultaPrestamos.CosultaPrestamoCliente.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.ActualizarCliente.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes.FormRegistrar.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Clientes.FormClientes.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formActualizar.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formagregarproducto.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD.formVerDetalles.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_DVD.FormDvD.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormAgregarP.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.Modulos.Gestion_Prestamos.FormPrestamos.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Formularios.registro.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.InicioSesion.resources
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.GenerateResource.Cache
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\Freelight\Desktop\Proyecto Definitico\Proyecto Definitico\PROYECTOFINAL ALGORITMOS Y PROGRAMACION 1\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb

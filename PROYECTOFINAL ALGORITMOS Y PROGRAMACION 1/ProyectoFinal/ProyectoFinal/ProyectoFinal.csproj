@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{6E51F177-512E-4CE4-9BD0-8D3511C0363D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoFinal</RootNamespace>
+    <AssemblyName>ProyectoFinal</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ControlesPersonalizados">
+      <HintPath>ControlesPersonalizados.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Inventario\ColeccionDVD.cs" />
+    <Compile Include="Clases\Inventario\DVD.cs" />
+    <Compile Include="Clases\Prestamos\ClasePrestamos.cs" />
+    <Compile Include="Clases\Prestamos\ColeccionPrestamos.cs" />
+    <Compile Include="Clases\RegistroClient\Clientes.cs" />
+    <Compile Include="Clases\RegistroClient\coleccionClientes.cs" />
+    <Compile Include="Clases\RegistroEmp\coleccionE.cs" />
+    <Compile Include="Clases\RegistroEmp\Empleado.cs" />
+    <Compile Include="Clases\Validaciones.cs" />
+    <Compile Include="Formularios\FormEmpleado.cs" />
+    <Compile Include="Formularios\FormEmpleado.Designer.cs">
+      <DependentUpon>FormEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\ConsultaPrestamos\ConsultaIngresos.cs" />
+    <Compile Include="Formularios\Modulos\ConsultaPrestamos\ConsultaIngresos.Designer.cs">
+      <DependentUpon>ConsultaIngresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\ConsultaPrestamos\CosultaPrestamoCliente.cs" />
+    <Compile Include="Formularios\Modulos\ConsultaPrestamos\CosultaPrestamoCliente.Designer.cs">
+      <DependentUpon>CosultaPrestamoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion Clientes\cudclientes\ActualizarCliente.cs" />
+    <Compile Include="Formularios\Modulos\Gestion Clientes\cudclientes\ActualizarCliente.Designer.cs">
+      <DependentUpon>ActualizarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion Clientes\cudclientes\FormRegistrar.cs" />
+    <Compile Include="Formularios\Modulos\Gestion Clientes\cudclientes\FormRegistrar.Designer.cs">
+      <DependentUpon>FormRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion Clientes\FormClientes.cs" />
+    <Compile Include="Formularios\Modulos\Gestion Clientes\FormClientes.Designer.cs">
+      <DependentUpon>FormClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formActualizar.cs" />
+    <Compile Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formActualizar.Designer.cs">
+      <DependentUpon>formActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formagregarproducto.cs" />
+    <Compile Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formagregarproducto.Designer.cs">
+      <DependentUpon>formagregarproducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formVerDetalles.cs" />
+    <Compile Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formVerDetalles.Designer.cs">
+      <DependentUpon>formVerDetalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion DVD\FormDvD.cs" />
+    <Compile Include="Formularios\Modulos\Gestion DVD\FormDvD.Designer.cs">
+      <DependentUpon>FormDvD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion Prestamos\FormAgregarP.cs" />
+    <Compile Include="Formularios\Modulos\Gestion Prestamos\FormAgregarP.Designer.cs">
+      <DependentUpon>FormAgregarP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Modulos\Gestion Prestamos\FormPrestamos.cs" />
+    <Compile Include="Formularios\Modulos\Gestion Prestamos\FormPrestamos.Designer.cs">
+      <DependentUpon>FormPrestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\registro.cs" />
+    <Compile Include="Formularios\registro.Designer.cs">
+      <DependentUpon>registro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios\FormEmpleado.resx">
+      <DependentUpon>FormEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\ConsultaPrestamos\ConsultaIngresos.resx">
+      <DependentUpon>ConsultaIngresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\ConsultaPrestamos\CosultaPrestamoCliente.resx">
+      <DependentUpon>CosultaPrestamoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion Clientes\cudclientes\ActualizarCliente.resx">
+      <DependentUpon>ActualizarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion Clientes\cudclientes\FormRegistrar.resx">
+      <DependentUpon>FormRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion Clientes\FormClientes.resx">
+      <DependentUpon>FormClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formActualizar.resx">
+      <DependentUpon>formActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formagregarproducto.resx">
+      <DependentUpon>formagregarproducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion DVD\CRUDDVD\formVerDetalles.resx">
+      <DependentUpon>formVerDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion DVD\FormDvD.resx">
+      <DependentUpon>FormDvD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion Prestamos\FormAgregarP.resx">
+      <DependentUpon>FormAgregarP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Modulos\Gestion Prestamos\FormPrestamos.resx">
+      <DependentUpon>FormPrestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\registro.resx">
+      <DependentUpon>registro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clases" />
+    <Folder Include="Clases\Prestamos" />
+    <Folder Include="Clases\Inventario" />
+    <Folder Include="Clases\RegistroClient" />
+    <Folder Include="Clases\RegistroEmp" />
+    <Folder Include="Formularios" />
+    <Folder Include="Formularios\Modulos" />
+    <Folder Include="Formularios\Modulos\Gestion Clientes\cudclientes" />
+    <Folder Include="Formularios\Modulos\Gestion DVD\CRUDDVD" />
+    <Folder Include="Formularios\Modulos\ConsultaPrestamos" />
+    <Folder Include="Formularios\Modulos\Gestion Prestamos" />
+    <Folder Include="Formularios\Modulos\Gestion Clientes" />
+    <Folder Include="Formularios\Modulos\Gestion DVD" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
