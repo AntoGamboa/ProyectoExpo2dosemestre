@@ -210,6 +210,8 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD
 			}
 			
 		}
+		
+		
 
 		void btnAgregarProducto_Click(object sender, EventArgs e)
 		{

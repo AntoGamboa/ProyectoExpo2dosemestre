@@ -41,6 +41,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 			FormAgregarP formulario2=new FormAgregarP();
 			AddOwnedForm(formulario2);
 			formulario2.ShowDialog();
+			
 			int Posicion=dataGridView1.Rows.Add();
 			dataGridView1.Rows[Posicion].Cells[0].Value=formulario2.textBox1.Textos;
 			dataGridView1.Rows[Posicion].Cells[1].Value=formulario2.textBox2.Text;
@@ -57,6 +58,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 			}
 			label5.Text=Suma.ToString();
 			formulario2=null;
+			
 			
 		}
 

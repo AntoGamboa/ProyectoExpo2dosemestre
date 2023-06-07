@@ -102,6 +102,8 @@ namespace ProyectoFinal.Clases.Inventario
 			}
 			return Posicion;
 		}
+		
+		
 		public void Dispose()
 		{
 			GC.SuppressFinalize(this);

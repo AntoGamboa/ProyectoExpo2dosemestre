@@ -45,6 +45,8 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 			btnAgregar.Click+= new EventHandler(btnAgregar_Click);
 			btnagregarimagen.Click+=new EventHandler(btnagregarimagen_Click);
 		}
+		
+		
 		void existencia_KeyPress(object sender, KeyPressEventArgs e)
 		{
 			if(e.KeyChar==Convert.ToChar(Keys.Enter)) precio.Focus();
@@ -150,10 +152,8 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 			DateTime FechaIngreso=DateTime.Now;
 			ColeccionAgregar.AgregarDVD(new DVD(Codigo,Titulo,Descripcion,AñoEmision,TipoMedio
 			                                   	,Imagen,Existencia,Precio,Prestado,FechaIngreso));
-				
-			
-		
 		}
+		
 		void LimpiarForm()
 		{
 			string ImagenPorDEfecto=Path.Combine(Application.StartupPath,"ImagenesProductos","sinimagen.jpg");
