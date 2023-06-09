@@ -17,7 +17,7 @@ namespace ProyectoFinal.Clases.Inventario
 	{
 		private List<DVD> lista;
 		public List<DVD> Lista {get { return lista; }set { lista = value; }}
-		string Ruta="BdDvd.txt";
+		string Ruta="BdDVD.txt";
 		public ColeccionDVD()
 		{
 			lista=new List<DVD>();
@@ -32,8 +32,7 @@ namespace ProyectoFinal.Clases.Inventario
 			}
 		}
 		
-		
-		public void CargarDvD()
+		public void CargarDVD()
 		{
 			if(File.Exists(Ruta))
 			{

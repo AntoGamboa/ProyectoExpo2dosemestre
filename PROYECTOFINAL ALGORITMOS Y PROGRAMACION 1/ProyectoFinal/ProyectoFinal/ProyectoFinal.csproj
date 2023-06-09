@@ -58,7 +58,7 @@
     <Compile Include="Clases\RegistroClient\coleccionClientes.cs" />
     <Compile Include="Clases\RegistroEmp\coleccionE.cs" />
     <Compile Include="Clases\RegistroEmp\Empleado.cs" />
-    <Compile Include="Clases\Validaciones.cs" />
+    <Compile Include="Clases\Validaciones mejoradas.cs" />
     <Compile Include="Formularios\FormEmpleado.cs" />
     <Compile Include="Formularios\FormEmpleado.Designer.cs">
       <DependentUpon>FormEmpleado.cs</DependentUpon>

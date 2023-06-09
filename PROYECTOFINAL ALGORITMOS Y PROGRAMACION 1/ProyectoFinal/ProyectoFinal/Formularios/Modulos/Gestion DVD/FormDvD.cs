@@ -56,7 +56,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD
 				using(ColeccionDVD MostrarProducto= new ColeccionDVD())
 				{
 					DVD Deshabilitado= new DVD();
-					MostrarProducto.CargarDvD();
+					MostrarProducto.CargarDVD();
 					foreach(DVD x in MostrarProducto.Lista)
 					{
 						if(x.Codigo==datotomado)
@@ -91,7 +91,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD
 				formVerDetalles Formulario = new formVerDetalles();
 				using(ColeccionDVD MostrarProducto= new ColeccionDVD())
 				{
-					MostrarProducto.CargarDvD();
+					MostrarProducto.CargarDVD();
 					foreach(DVD x in MostrarProducto.Lista)
 					{
 						if(x.Codigo==datotomado)
@@ -178,7 +178,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD
 				formActualizar Formulario = new formActualizar();
 				using(ColeccionDVD CargarProducto= new ColeccionDVD())
 				{
-					CargarProducto.CargarDvD();
+					CargarProducto.CargarDVD();
 					foreach(DVD x in CargarProducto.Lista)
 					{
 						if(x.Codigo==CodigoTomado)
@@ -228,7 +228,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD
 		{
 			using(ColeccionDVD Mostrar = new ColeccionDVD())
 			{
-				Mostrar.CargarDvD();
+				Mostrar.CargarDVD();
 				foreach(DVD x in Mostrar.Lista)
 				{
 					CargarDataGrid(x);
@@ -244,7 +244,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD
 			using(ColeccionDVD Filtrado = new ColeccionDVD())
 			{
 				List<DVD> DVDfiltrados= new List<DVD>();
-				Filtrado.CargarDvD();
+				Filtrado.CargarDVD();
 				bool Encontrado=false;
 				foreach(DVD x in Filtrado.Lista)
 				{
@@ -264,7 +264,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD
 		{
 			using(ColeccionDVD Filtrado = new ColeccionDVD())
 			{
-				Filtrado.CargarDvD();
+				Filtrado.CargarDVD();
 				List<DVD> DVDfiltrados= DVDfiltrados=Filtrado.Lista.FindAll(x=>x.Tipomedio == DatoFiltrado);
 				return DVDfiltrados;
 			}

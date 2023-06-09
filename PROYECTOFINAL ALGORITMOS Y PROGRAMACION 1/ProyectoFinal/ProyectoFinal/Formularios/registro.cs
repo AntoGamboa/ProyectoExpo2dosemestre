@@ -134,21 +134,23 @@ namespace ProyectoFinal.Formularios
 				{
 					ColeRegistros.CapturarRegistros();
 					ValidarCamposVacios();
-					ValidarTextos(nombre.Textos);
-					ValidarTextos(apellido.Textos);
+					nombre.Textos.SoloLetras("Nombre");
+					apellido.Textos.SoloLetras("Apellido");
+
+					
 					ValidarConfirmacionContraseña();
+					
 					VAlidarUsuario(usuario.Textos);
 					validarEmail();
 					CrearUsuario();
 					MessageBox.Show("Registro Exitoso","¡Mensaje!",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
 					LimpiarForm();
 				}
-				catch(Validaciones ex)
+				catch(ArgumentException ex)
 				{
-					Validaciones.EnviarMensajes(ex.Message);
+					MessageBox.Show(ex.Message);
 					nombre.Focus();
-				}	
-		
+				}
 		}
 		#endregion
 		
@@ -176,37 +178,31 @@ namespace ProyectoFinal.Formularios
 		void ValidarCamposVacios()
 		{
 			
-			if(nombre.Textos.Trim()=="") throw new Validaciones("0");
-			else if(apellido.Textos.Trim()=="") throw new Validaciones("1");
-			else if(usuario.Textos.Trim()=="") throw new Validaciones("2");
-			else if(correo.Textos.Trim()=="") throw new Validaciones("3");
-			else if(contraseña.Textos.Trim()=="") throw new Validaciones("4");	
-			else if(AceptarTerminos.Checked==false) throw new Validaciones("5");	
+			nombre.Textos.CadenaNoVacia("Nombre");
+			apellido.Textos.CadenaNoVacia("Apellido");
+			usuario.Textos.CadenaNoVacia("Usuario");
+			correo.Textos.CadenaNoVacia("Correo");
+			contraseña.Textos.CadenaNoVacia("Contraseña");
+			if(AceptarTerminos.Checked==false) throw new ArgumentException("Debe Aceptar Terminos y condiciones");
 		}
 		//valida que los textos no tengan numeros y tengan entre 3 y 12 caracteres
-		void ValidarTextos(string Texto)
-		{
-			string PatronBusqueda="[a-zA-zñÑ]{3,12}";
-			if(!Regex.IsMatch(Texto.Trim(),PatronBusqueda)) {throw new Validaciones("6");}
-			
-		}
 		
 		//esta funcion verifica si la contraseña coincide con la confrimacion
 		void ValidarConfirmacionContraseña()
 		{
-			if(!contraseña.Textos.Equals(confirmarContraseña.Textos)) throw new Validaciones("8");
+			if(!contraseña.Textos.Equals(confirmarContraseña.Textos)) throw new ArgumentException("Contraseñas no coinciden");
 		
 		}
 		//esta funcion verifica si se esta creando una cuenta cuyo usuario ya existe
 		void VAlidarUsuario(string Usuario)
 		{
-			if(ColeRegistros.VerificarUsuario(Usuario)) throw new Validaciones("9");
+			if(ColeRegistros.VerificarUsuario(Usuario)) throw new ArgumentException("Ya existe un usuario con el mismo nombre");
 		}
 		
 		void validarEmail()
 		{
 			string PatronBusqueda="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+.+.[a-zA-Z]{2,4}";
-			if(!Regex.IsMatch(correo.Textos.Trim(),PatronBusqueda)) throw new Validaciones("10");
+			if(!Regex.IsMatch(correo.Textos.Trim(),PatronBusqueda)) throw new ArgumentException("Introducir un email correcto");
 			
 		}
 		#endregion

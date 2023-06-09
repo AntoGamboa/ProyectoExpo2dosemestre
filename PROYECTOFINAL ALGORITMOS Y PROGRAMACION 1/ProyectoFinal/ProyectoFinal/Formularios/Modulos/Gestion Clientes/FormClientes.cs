@@ -17,16 +17,12 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes
 		
 		public FormClientes()
 		{
-		
 			InitializeComponent();
 			btnRegistrarCliente.Click+= new EventHandler(btnRegistrarCliente_Click);
 			btnActualizarCliente.Click += new EventHandler(btnActualizarCliente_Click);
 			BtnRefrescar.Click+=new EventHandler(BtnRefrescarClick);
-			cargarregistros();
-			
-			
+			cargarregistros();	
 		}
-
 		void btnActualizarCliente_Click(object sender, EventArgs e)
 		{
 			
@@ -51,12 +47,8 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes
 							Formulario.telefono.Textos= x.NumeroTLF;
 							Formulario.nacimiento.Value=x.FechaDN;
 							Formulario.lblFechaingreso.Text=x.Fechaingreso.ToShortDateString();
-						
 						}
-					
 					}
-				
-
 				}
 				
 				Formulario.ShowDialog();
@@ -119,7 +111,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes
 				{
 					dataGridView1.Rows.Clear();
 					List<Clientes> Filtro = Filtrar();
-					
 					foreach (Clientes x in Filtro) 
 					{
 						CargarDataGrid(x);
@@ -128,11 +119,8 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes
 				}
 				
 				else{dataGridView1.Rows.Clear();cargarregistros();}
-			}
-			
-			
+			}	
 		}
-		
 		void BuscarNombreKeyPress(object sender, KeyPressEventArgs e)
 		{
 			if (e.KeyChar== Convert.ToChar(Keys.Enter)) 
@@ -159,7 +147,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes
 				foreach( Clientes x in Mostrar.Listaclientes)
 				{
 					CargarDataGrid(x);
-
 				}
 			}
 		}
@@ -177,32 +164,23 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes
 			dataGridView1.Rows[PosicionFilas].Cells[8].Value=x.Fechaingreso.ToShortDateString();
 			dataGridView1.Rows[PosicionFilas].Cells[9].Value=x.ToString();
 		}
-	
-		
 		private List<Clientes> Filtrar()
 		{	
 			using (coleccionClientes Filtrado= new coleccionClientes()) 
 			{
 				List<Clientes> ClientesFiltrados= new List<Clientes>();
-				
 				Filtrado.CargarClientes();
 				bool Encontrado=false;
 				foreach (Clientes x in Filtrado.Listaclientes) 
 				{
-					
 					if (x.CI == BuscarCedula.Textos.Trim() || x.Nombre== BuscarNombre.Textos.Trim()) 
 					{ClientesFiltrados.Add(x); Encontrado=true;break;}
-					
-				
 				}
 				if(Encontrado==false)MessageBox.Show("Cliente no registrado");
 				return ClientesFiltrados;
 				
 			}		
 		}
-		
-		
-		
 		void BtnRefrescarClick(object sender, EventArgs e)
 		{
 			dataGridView1.Rows.Clear();
