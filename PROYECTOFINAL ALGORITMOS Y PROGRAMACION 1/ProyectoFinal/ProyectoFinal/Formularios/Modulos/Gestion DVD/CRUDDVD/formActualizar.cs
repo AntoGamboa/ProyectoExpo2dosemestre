@@ -72,7 +72,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 				ValidarCampos();
 				using(ColeccionDVD Actualizar= new ColeccionDVD())
 				{
-					Actualizar.CargarDvD();
+					Actualizar.CargarDVD();
 					foreach(DVD x in Actualizar.Lista)
 					{
 						if(x.Codigo==codigo.Textos.Trim())
@@ -85,9 +85,9 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 					this.Dispose();
 				}
 			}
-			catch(Validaciones ex)
+			catch(ArgumentException ex)
 			{
-				Validaciones.EnviarMensajes(ex.Message);
+				MessageBox.Show(ex.Message);
 			
 			}
 			catch(Exception ex)
@@ -100,22 +100,17 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 		}
 		void ValidarCampos()
 		{
-			
-			ValidarSolonumero(existencia.Textos.Trim());
-			ValidarSolonumero(precio.Textos.Trim());
-			if(codigo.Textos.Trim()=="") throw new Validaciones("11");
-			else if(titulo.Textos.Trim()=="") throw new Validaciones("12");
-			else if(descripcion.Textos.Trim()=="") throw new Validaciones("13");
-			else if(emision.Value>DateTime.Now) throw new Validaciones("14");
-			else if(cbtipomedio.Text.Trim()=="") throw new Validaciones("15");
-			else if(int.Parse(existencia.Textos)<0) throw new Validaciones("16");
-			else if(float.Parse(precio.Textos)<0) throw new Validaciones("17");
-		}
-		void ValidarSolonumero(string campo)
-		{
-			string PatronBusqueda="[0-9]";
-			if(!Regex.IsMatch(campo.Trim(),PatronBusqueda)) {throw new Validaciones("18");}
-		
+			codigo.Textos.CadenaNoVacia("Codigo");
+			titulo.Textos.CadenaNoVacia("Titulo");
+			descripcion.Textos.CadenaNoVacia("Descripcion");
+			if(emision.Value>DateTime.Now) throw new ArgumentException("introduzca una fecha de emision valida");
+			cbtipomedio.Text.CadenaNoVacia("Tipo de Medio");
+			existencia.Textos.CadenaNoVacia("Existencia");
+			precio.Textos.CadenaNoVacia("Precio");
+			existencia.Textos.Trim().ValidarSolonumero("Existencia");
+			precio.Textos.Trim().ValidarSolonumero("Precio");
+			float.Parse(existencia.Textos).valoresMayoresAcero("Existencia");
+			float.Parse(precio.Textos).valoresMayoresAcero("Precio");
 		}
 		DVD ActualizarRegistro()
 		{
@@ -131,8 +126,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 			DateTime FechaIngreso=DateTime.Now;
 			DVD Actualizado = new DVD(Codigo,Titulo,Descripcion,AñoEmision,TipoMedio,Imagen,Existencia,Precio,Prestado,FechaIngreso);
 			return Actualizado;	
-			
-		
 		}
 		void LimpiarForm()
 		{
@@ -148,7 +141,5 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 			prestado.Checked=false;
 		
 		}
-
-	
 	}
 }

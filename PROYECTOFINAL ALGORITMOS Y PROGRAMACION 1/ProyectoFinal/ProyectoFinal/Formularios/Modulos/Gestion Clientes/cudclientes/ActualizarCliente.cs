@@ -23,13 +23,9 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes
 		coleccionClientes Coleccion;
 		public ActualizarCliente()
 		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
 			InitializeComponent();
 			Coleccion=new coleccionClientes();
 		}
-		
 		void BtnActualizarClick(object sender, EventArgs e)
 		{
 			try {
@@ -37,10 +33,8 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes
 				using(coleccionClientes ActualizarC = new coleccionClientes())
 				{
 					ActualizarC.CargarClientes();
-					
 					foreach (Clientes r in ActualizarC.Listaclientes) 
 					{
-						
 						if (r.CI == cedula.Textos.Trim()) 
 						{
 							ActualizarC.Actualizar(CapturarDatos(), cedula.Textos.Trim());
@@ -51,33 +45,11 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes
 					this.Dispose();
 				}
 			
-			} catch (Validaciones Error) {
+			} catch (ArgumentException Error) {
 				
-				Validaciones.EnviarMensajes(Error.Message);
+				MessageBox.Show(Error.Message);
 			}
 			
-		}
-		
-		
-		
-		
-		
-		void validarcedulaexistente(string cedula)
-		{
-			if(Coleccion.Encontrar(cedula)) throw new Validaciones("20");
-		}
-	
-		void validarsololetras(string campo)
-		{
-			string PatronBusqueda="[a-zA-zñÑ]";
-			if(!Regex.IsMatch(campo.Trim(),PatronBusqueda)) {throw new Validaciones("6");}
-		
-		}
-		void validarsolonumeros(string campo)
-		{
-			string PatronBusqueda="[0-9]";
-			if(!Regex.IsMatch(campo.Trim(),PatronBusqueda)) {throw new Validaciones("23");}
-		
 		}
 		Clientes CapturarDatos()
 		{
@@ -93,30 +65,22 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes
 			Clientes registrado= new Clientes(Cedula,Nombre,Apellido,Direccion,NroResidencia,Telefono,FechaNac,Correo,FecIngreso);
 			return registrado;
 		}
-		
-		
-		
-		
 		void ValidarCampos()
 		{	
-			if(nombre.Textos.Trim()=="") throw new Validaciones("0");
-			else if(apellido.Textos.Trim()=="") throw new Validaciones("1");
-			else if(cedula.Textos.Trim() == "") throw new Validaciones("22");
-			else if(direccion.Textos.Trim() =="") throw new Validaciones("22");
-			else if(nroResidencia.Textos.Trim() == "") throw new Validaciones("22");
-			else if(nroResidencia.Textos.Trim() == "") throw new Validaciones("22");
-			else if(nacimiento.Value>DateTime.Now) throw new Validaciones("24");
-			validarsololetras(nombre.Textos.Trim());
-			validarsololetras(apellido.Textos.Trim());
-			validarsolonumeros(cedula.Textos.Trim());
-
-
-			
+			nombre.Textos.Trim().CadenaNoVacia("Nombre");
+			apellido.Textos.Trim().CadenaNoVacia("Apellido");
+			cedula.Textos.Trim().CadenaNoVacia("Cedula");
+			direccion.Textos.Trim().CadenaNoVacia("Direccion");
+			nroResidencia.Textos.Trim().CadenaNoVacia("Numero Residencia");
+			if(nacimiento.Value>DateTime.Now) throw new ArgumentException("Fecha invalida");
+			nombre.Textos.Trim().SoloLetras("Nombre");
+			apellido.Textos.Trim().SoloLetras("Apellido");
+			cedula.Textos.Trim().ValidarSolonumero("Cedula");
 		}
 		void validarEmail()
 		{
 			string PatronBusqueda="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9-]+.+.[a-zA-Z]{2,4}";
-			if(!Regex.IsMatch(correo.Textos.Trim(),PatronBusqueda)) throw new Validaciones("10");
+			if(!Regex.IsMatch(correo.Textos.Trim(),PatronBusqueda)) throw new ArgumentException("Introduza un Email Correcto");
 			
 		}
 		void LimpiarForm()
@@ -128,11 +92,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Clientes.cudclientes
 			nroResidencia.Textos="";
 			correo.Textos="";
 			telefono.Textos= "";
-			nacimiento.Value= DateTime.Now;
-			
+			nacimiento.Value= DateTime.Now;	
 		}
-		
-		
-		
 	}
 }

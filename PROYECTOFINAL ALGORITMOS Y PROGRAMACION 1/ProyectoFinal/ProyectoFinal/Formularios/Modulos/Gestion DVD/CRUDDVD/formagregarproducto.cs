@@ -22,8 +22,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 	{
 		ColeccionDVD ColeccionAgregar;
 		List<string> TiposMedio;
-		
-		
 		public formagregarproducto()
 		{
 			InitializeComponent();
@@ -38,8 +36,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 			{
 				cbtipomedio.Items.Add(X);
 			}
-			
-			
 			ColeccionAgregar= new ColeccionDVD();
 			lblFechaingreso.Text="Producto resgistrado el dia " + string.Format(DateTime.Now.ToShortDateString());
 			btnAgregar.Click+= new EventHandler(btnAgregar_Click);
@@ -82,7 +78,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 		}
 		void btnAgregar_Click(object sender, EventArgs e)
 		{
-			ColeccionAgregar.CargarDvD();
+			ColeccionAgregar.CargarDVD();
 			try
 			{
 				
@@ -93,15 +89,15 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 		            imagenproducto.Image = Image.FromFile(rutaImagenPorDefecto);
 		            imagenproducto.Tag = rutaImagenPorDefecto;
 		        }
+				
 				ValidarCodigoExistente(codigo.Textos);
 				CrearRegistro();
 				MessageBox.Show("Registro Realizado Exitosamente","¡Mensaje!",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
 				LimpiarForm();
 			}
-			catch(Validaciones ex)
+			catch(ArgumentException ex)
 			{
-				Validaciones.EnviarMensajes(ex.Message);
-			
+				MessageBox.Show(ex.Message);
 			}
 			catch(Exception ex)
 			{
@@ -114,27 +110,22 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 		
 		void ValidarCampos()
 		{
-			
-			ValidarSolonumero(existencia.Textos.Trim());
-			ValidarSolonumero(precio.Textos.Trim());
-			if(codigo.Textos.Trim()=="") throw new Validaciones("11");
-			else if(titulo.Textos.Trim()=="") throw new Validaciones("12");
-			else if(descripcion.Textos.Trim()=="") throw new Validaciones("13");
-			else if(emision.Value>DateTime.Now) throw new Validaciones("14");
-			else if(cbtipomedio.Text.Trim()=="") throw new Validaciones("15");
-			else if(float.Parse(existencia.Textos)<0) throw new Validaciones("16");
-			else if(float.Parse(precio.Textos)<0) throw new Validaciones("17");
-			ValidarSolonumero(existencia.Textos.Trim());
+			codigo.Textos.CadenaNoVacia("Codigo");
+			titulo.Textos.CadenaNoVacia("Titulo");
+			descripcion.Textos.CadenaNoVacia("Descripcion");
+			if(emision.Value>DateTime.Now) throw new ArgumentException("introduzca una fecha de emision valida");
+			cbtipomedio.Text.CadenaNoVacia("Tipo de Medio");
+			existencia.Textos.CadenaNoVacia("Existencia");
+			precio.Textos.CadenaNoVacia("Precio");
+			existencia.Textos.Trim().ValidarSolonumero("Existencia");
+			precio.Textos.Trim().ValidarSolonumero("Precio");
+			float.Parse(existencia.Textos).valoresMayoresAcero("Existencia");
+			float.Parse(precio.Textos).valoresMayoresAcero("Precio");
 		}
-		void ValidarSolonumero(string campo)
-		{
-			string PatronBusqueda="[0-9]";
-			if(!Regex.IsMatch(campo.Trim(),PatronBusqueda)) {throw new Validaciones("18");}
 		
-		}
 		void ValidarCodigoExistente(string Codigo)
 		{
-			if(ColeccionAgregar.Encontrar(Codigo)) throw new Validaciones("19");
+			if(ColeccionAgregar.Encontrar(Codigo)) throw new ArgumentException("Ya existe un producto con el mismo código.");
 		}
 		void CrearRegistro()
 		{
@@ -150,9 +141,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 			DateTime FechaIngreso=DateTime.Now;
 			ColeccionAgregar.AgregarDVD(new DVD(Codigo,Titulo,Descripcion,AñoEmision,TipoMedio
 			                                   	,Imagen,Existencia,Precio,Prestado,FechaIngreso));
-				
-			
-		
 		}
 		void LimpiarForm()
 		{
@@ -166,7 +154,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_DVD.CRUDDVD
 			existencia.Textos="";
 			precio.Textos="";
 			prestado.Checked=false;
-		
 		}
 	}
 }

@@ -328,7 +328,7 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 			this.Cedula.TamaBorde = 2;
 			this.Cedula.TextoMarcadorPosicion = "Cedula";
 			this.Cedula.Textos = "";
-			this.Cedula.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CedulaKeyPress);
+
 			// 
 			// panel3
 			// 

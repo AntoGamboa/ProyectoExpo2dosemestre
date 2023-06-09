@@ -30,7 +30,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 			btnEliminar.Click+= new EventHandler(btnEliminar_Click);
 			btnAgregarProducto.Click+=new EventHandler(btnAgregarProducto_Click);
 			btnGenerarVenta.Click+= new EventHandler(btnGenerarVenta_Click);
-			
 			btnAgregarProducto.Enabled= false;
 			
 		}
@@ -49,26 +48,21 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 			dataGridView1.Rows[Posicion].Cells[4].Value=formulario2.label2.Text;
 			dataGridView1.Rows[Posicion].Cells[5].Value=formulario2.label3.Text;
 			dataGridView1.Rows[Posicion].Cells[6].Value=formulario2.textBox3.Textos;
-			btnGenerarVenta.Enabled= true;
-						
+			btnGenerarVenta.Enabled= true;		
 			foreach(DataGridViewRow fila in dataGridView1.Rows)
 			{
 					Suma+=Convert.ToInt16(fila.Cells[3].Value.ToString());
 			}
 			label5.Text=Suma.ToString();
 			formulario2=null;
-			
 		}
-
 		void btnGenerarVenta_Click(object sender, EventArgs e)
 		{
 			GenerarRegistro();
 			ActualizarExistencia();
 			LimpiarFormC();
 			MessageBox.Show("Venta Registrada Exitoxamente");
-		
 		}
-
 		void btnEliminar_Click(object sender, EventArgs e)
 		{
 			int Suma=0;
@@ -83,8 +77,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 			foreach(DataGridViewRow fila in dataGridView1.Rows)
 			{
 				Suma+=Convert.ToInt16(fila.Cells[3].Value.ToString());
-			
-			
 			}
 			label5.Text=Suma.ToString();
 		}
@@ -113,37 +105,8 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 					apellido.Textos="";
 					direccion.Textos="";
 				}
-					
-			
 			}
 		}
-		
-		
-		
-		void BtnAgregarProductoClick(object sender, EventArgs e)
-		{
-			int Suma=0;
-			FormAgregarP formulario2=new FormAgregarP();
-			AddOwnedForm(formulario2);
-			formulario2.ShowDialog();
-			int Posicion=dataGridView1.Rows.Add();
-			dataGridView1.Rows[Posicion].Cells[0].Value=formulario2.textBox1.Text;
-			dataGridView1.Rows[Posicion].Cells[1].Value=formulario2.textBox2.Text;
-			dataGridView1.Rows[Posicion].Cells[2].Value=formulario2.label5.Text;
-			dataGridView1.Rows[Posicion].Cells[3].Value=formulario2.label1.Text;
-			dataGridView1.Rows[Posicion].Cells[4].Value=formulario2.label2.Text;
-			dataGridView1.Rows[Posicion].Cells[5].Value=formulario2.label3.Text;
-			dataGridView1.Rows[Posicion].Cells[6].Value=formulario2.textBox3.Text;
-						
-			foreach(DataGridViewRow fila in dataGridView1.Rows)
-			{
-				Suma+=Convert.ToInt16(fila.Cells[3].Value.ToString());
-			}
-			label5.Text=Suma.ToString();
-			formulario2=null;
-			
-		}
-		
 		void GenerarRegistro()
 		{
 			string cedula=Cedula.Textos;
@@ -152,7 +115,6 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 			string Direccion=direccion.Textos;
 			float Total=float.Parse(label5.Text);
 			List<ProductoVendido> Vendido=new List<ProductoVendido>();
-			
 			foreach(DataGridViewRow Filas in dataGridView1.Rows)
 			{
 				string codigo= Filas.Cells[0].Value.ToString();
@@ -161,14 +123,11 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 				float precio= Convert.ToSingle(Filas.Cells[3].Value);
 				DateTime fechadevolucion=Convert.ToDateTime( Filas.Cells[5].Value);
 				int cantidad= Convert.ToInt16(Filas.Cells[6].Value);
-				
 				Vendido.Add(new ProductoVendido(codigo,titulo,tipomedio,precio,fechadevolucion,cantidad));
 			}
 			using(ColeccionPrestamos Escribir= new ColeccionPrestamos())
 			{
-			
 				Escribir.RegistrarVenta(new ClasePrestamos(cedula,Nombre,Apellido,Direccion,Total,Vendido));
-			
 			}
 
 		
@@ -177,12 +136,11 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 		{
 			using (ColeccionDVD actualizarExistencia = new ColeccionDVD())
 		    {
-		        actualizarExistencia.CargarDvD();
+		        actualizarExistencia.CargarDVD();
 		        foreach (DataGridViewRow filas in dataGridView1.Rows)
 		        {
 		            string codigoArestar = filas.Cells[0].Value.ToString();
 		            int CantidadProducto = Convert.ToInt16(filas.Cells[6].Value);
-
 		            List<DVD> listaDVDs = actualizarExistencia.Lista.ToList();
 		            foreach (DVD x in listaDVDs)
 		            {
@@ -192,13 +150,12 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 		                    actualizarExistencia.Actualizar(x, codigoArestar);
 		                }
 		            }
-		          //policia  MessageBox.Show(codigoArestar);
 		        }
 		    }
 		}
 	
 		
-		void CedulaKeyPress(object sender, KeyPressEventArgs e)
+		void CedulaKeyPress(DVD sender, KeyPressEventArgs e)
 		{
 			if (e.KeyChar== Convert.ToChar(Keys.Enter)) BuscarDClientes_Click(sender,e);
 		}
@@ -213,8 +170,5 @@ namespace ProyectoFinal.Formularios.Modulos.Gestion_Prestamos
 			btnAgregarProducto.Enabled= false;
 			btnGenerarVenta.Enabled= false;
 		}
-		
-		
-		
 	}
 }
